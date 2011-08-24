@@ -18,7 +18,12 @@ To use:
 2. Place the following markup somewhere inside each document that you want to make draggable. The links should point to the next and previous pages.
 
 
-&lt;ul data-role=&quot;pagination&quot;&gt;
-	&lt;li class=&quot;ui-pagination-prev&quot;&gt;&lt;a href=&quot;2.html&quot;&gt;Prev&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;ui-pagination-next&quot;&gt;&lt;a href=&quot;4.html&quot;&gt;Next&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+Markup:
+
+
+
+
+    <ul data-role="pagination">
+        <li class="ui-pagination-prev"><a href="2.html">Prev</a></li>
+        <li class="ui-pagination-next"><a href="4.html">Next</a></li>
+    </ul>
