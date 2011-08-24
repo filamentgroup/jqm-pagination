@@ -16,3 +16,9 @@ To use:
 
 1. Reference <code>jquery.mobile.pagination.css</code> and <code>jquery.mobile.pagination.js</code> from your page.
 2. Place the following markup somewhere inside each document that you want to make draggable. The links should point to the next and previous pages.
+
+
+    <ul data-role="pagination">
+		<li class="ui-pagination-prev"><a href="2.html">Prev</a></li>
+		<li class="ui-pagination-next"><a href="4.html">Next</a></li>
+	</ul>
