@@ -11,6 +11,8 @@
 		$( ":jqmData(role='pagination')", e.target ).pagination();
 	});
 	
+	var pageTitle="";
+	
 	//create widget
 	$.widget( "mobile.pagination", $.mobile.widget, {
 		_create: function() {
