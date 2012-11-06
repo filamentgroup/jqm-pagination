@@ -103,7 +103,7 @@
 						else if( e.keyCode === $.mobile.keyCode.RIGHT ){
 							targetA = $( ".ui-page-active .ui-pagination-next a" );
 						}
-						if( targetA ){
+						if( targetA && targetA.length ){
 							$.mobile.changePage( targetA.attr( "href" ), { reverse: reverse, transition: targetA.jqmData( "transition" ) } );
 							e.preventDefault();
 						}
