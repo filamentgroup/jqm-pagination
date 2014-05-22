@@ -1,5 +1,7 @@
-jQuery Mobile Pagination Plugin
-=====
+# jQuery Mobile Pagination Plugin
+
+[![Filament Group](http://filamentgroup.com/images/fg-logo-positive-sm-crop.png) ](http://www.filamentgroup.com/)
+
 A jQuery Mobile plugin for sequential pagination between pages with support for touch, mouse, and keyboard! 
 
 Simply add this plugin to your page and link together documents via ordinary HTML anchors. jQuery Mobile Pagination will enhance those links with touch-drag navigation in browsers that support touch events. 
